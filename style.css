@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* General section styling */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* About section */
+img {
+    max-width: 200px;
+    border-radius: 40%;
+    margin-bottom: 20px;
+}
+/* Skills section */
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+/* Projects section */
+.project {
+    margin: 40px auto;
+    max-width: 400px;
+}
+.project img {
+    max-width: 100%;
+}
+
+/* Resume section */
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Contact section */
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+}
